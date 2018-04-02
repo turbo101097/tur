@@ -1,0 +1,156 @@
+@charset "Utf-8";
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+//头部
+.header{
+//  width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.16rem 0 0.16rem 0.18rem;
+}
+.header li:nth-of-type(3){
+    width: 20%;
+//  display: flex;
+//  justify-content: space-between;
+//  flex-direction: column;
+}
+.sp1{
+    font-size: 0.36rem;
+    color: #000;
+}
+.aa{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    p{color: #999;color: 0.22rem;}
+}
+.box{
+//  width: 100%;
+    height: 1rem;
+    border-right:0.01rem solid #999;
+    border-top:0.01rem solid #999;
+    border-bottom:0.01rem solid #999;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.36rem;
+    color: #000;
+    li{
+       display: flex;
+       align-items: center;
+       text-align: center;
+    }
+
+}
+.box1{
+    width: 100%;
+    height: 1.16rem;
+    line-height: 1.16rem;
+    background: #f4f4f4;
+    
+    span{
+        margin-top: 0.5rem;
+        margin-bottom: 0.36rem;
+        font-size: 0.28rem;
+        color: #000;
+        margin-left: 0.2rem;
+    }
+}
+.box2{
+     display: flex;
+     flex-wrap: wrap;
+}
+.box2 li:nth-of-type(1){
+    border: 0.01rem solid  #49CC9C;
+    color:#49CC9C ;
+}
+.box2 li{
+    width:28%;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    border: 1px solid #eeeeee;
+    font-size: 0.28rem;
+    text-align: center;
+    color:#999 ;
+    margin-right: 0.08rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.25rem;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+//确认
+.box3{
+    width: 100%;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    background: #39C893;
+    text-align: center;
+    span{
+        color: white;
+        font-size: 0.36rem;
+    }
+}
+.box4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.36rem;
+    margin-bottom: 0.66rem !important;
+    border-bottom: 1px solid #f4f4f4;
+}
+.left{
+    width: 20%;
+    margin-left:0.15rem ;
+}
+.right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0.22rem;
+}
+.sp2{
+    font-size: 0.36rem;
+    margin-right: 0.22rem;
+}
+.sp3{
+    display: inline-block;
+    width: 0.95rem;
+    height: 0.45rem;
+    background:#39C993;
+    color:#fff;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.45rem;
+    border-radius: 0.05rem;
+}
+.sp4{
+    font-size: 0.28rem;
+    color: #feb505;
+    float: right;
+    margin-right: 0.2rem;
+}
+.sp5{
+     font-size: 0.28rem;
+     color: #999;
+    
+}
+.div2{
+   margin-top: 0.28rem;
+   margin-bottom: 0.2rem; 
+}
+.div2 span{
+    font-size: 0.28rem;
+}
+.div3{
+    font-size: 0.28rem;
+}
+.sp7,.sp8{
+    margin-left: 0.5rem;
+}
+.sp9{
+    font-size: 0.28rem;
+    color: #999;
+}
